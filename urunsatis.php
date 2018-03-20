@@ -10,12 +10,7 @@
 			$dosya=fopen("urun.txt","r");
 			while (!feof($dosya))
 			{
-				
-				
-				
-				
-				
-				
+			echo fgetc($dosya);	
 			}
 		echo"</select>";	
 		?>
